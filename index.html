@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>App</title>
+
+        <!-- CSS -->
+    	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    	<!-- JS -->
+    	<!-- angular -->
+        <script src="public/lib/angular/angular.min.js"></script>
+        <script src="//unpkg.com/angular-ui-router/release/angular-ui-router.min.js"></script>
+        <script src="public/lib/angular/angular-animate.min.js"></script>
+
+        <script src="public/js/app.js"></script>
+        
+		<!-- routes -->
+        <script src="public/js/routes.js"></script>
+
+        <!-- services -->
+        <script src="public/js/services/appApi.js"></script>
+        
+        <!-- controllers -->
+        <script src="public/js/controllers/appController.js"></script>
+
+    </head>
+    <body ng-app="app">
+        <div ui-view>
+            
+        </div>
+    </body>
+</html>
